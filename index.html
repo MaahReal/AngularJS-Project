@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>AngularJS | Project</title>
+    <link rel="stylesheet" href="./bootstrap-4.3.1-dist/bootstrap-4.3.1-dist/css/bootstrap.css">
+    <script src="./jquery.js"></script>
+    <script src="./bootstrap-4.3.1-dist/bootstrap-4.3.1-dist/js/bootstrap.js"></script>
+    <script src="./angular.js"></script>
+    <script src="./angular-route.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./app.js"></script>
+    <script src="./controller.js"></script>
+</head>
+
+<body ng-app="myApp">
+
+    <div class="header">
+        <img src="./images/pn-logo.png" alt="logo">
+        <div class="header-right">
+            <a href="#/" class="stroke">Home</a>
+            <a href="#/about" class="stroke">About</a>
+            <a href="#/team" class="stroke">Team</a>
+        </div>
+
+    </div>
+
+    <div ng-view></div>
+
+    <!-- Footer -->
+    <footer class="footer page-footer font-small special-color-dark pt-4">
+
+        <!-- Copyright -->
+        <div class=" container footer-copyright text-center py-3">© 2018 Copyright:
+            <a href="https://mail.google.com/mail/u/0/#inbox"> Mariel Magalona Boiser</a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+
+
+</body>
+
+</html>

@@ -1,39 +1,89 @@
-* {
-    box-sizing: border-box;
-}
-
-body {
-    background-color: bisque;
-    font-family: 'Courier New', Courier, monospace;
-}
-
-.header {
-    overflow: hidden;
-    padding: 20px 10px;
-    background-color: whitesmoke;
-}
-
-.header img {
-    width: 5%;
-}
-
-.header-right {
-    float: right;
-    margin-top: 10px;
-}
-
-#sudlanan {
-    width: 30px;
-}
-
-table tr th {
-    width: 25%;
-}
-
-.searchni {
-    background-color: black;
-}
-
-.opt {
-    float: right;
-}
+    * {
+        box-sizing: border-box;
+    }
+    
+    body {
+        background-color: bisque;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 1.2em;
+    }
+    
+    .header {
+        overflow: hidden;
+        padding: 20px 10px;
+    }
+    
+    .header img {
+        width: 5%;
+    }
+    
+    .header-right {
+        float: right;
+        margin-top: 10px;
+    }
+    
+    div .stroke div .stroke::after div .stroke::before {
+        border: 1px solid pink;
+        text-decoration: none;
+        position: relative;
+    }
+    
+    div .stroke,
+    div .stroke::after,
+    div .stroke::before {
+        transition: all .5s;
+    }
+    
+    div .stroke:hover {
+        color: #D3706F;
+    }
+    
+    div .stroke:after {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 0%;
+        content: '.';
+        color: transparent;
+        background: #465A51;
+        height: 1px;
+    }
+    
+    .stroke:visited {
+        color: #93524A;
+    }
+    
+    div .stroke:hover::after {
+        width: 100%;
+    }
+    
+    #sudlanan {
+        width: 30px;
+    }
+    
+    table tr th {
+        width: 25%;
+    }
+    
+    .opt {
+        float: right;
+    }
+    
+    #boxx {
+        padding-right: 120px;
+    }
+    
+    footer {
+        background-color: aqua;
+        margin-top: 31.9%;
+    }
+    
+    .myForm {
+        margin-top: 50px;
+    }
+    
+    .row {
+        text-align: center;
+    }
