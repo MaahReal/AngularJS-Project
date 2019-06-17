@@ -12,7 +12,7 @@ application.controller("homeController", function($scope) {
             Address: "Hilongos,Leyte",
             Age: "25"
         }, {
-            Name: "Dimpna Boiserr",
+            Name: "Dimpna Boiser",
             Address: "Mabini, Bohol",
             Age: "50"
         }, {
